@@ -1,0 +1,44 @@
+.caja1{
+    background-color: cadetblue;
+    width: 600px;
+    height: 80px; 
+    /*display: flex;*/
+}
+main{
+    width: 600px;
+    height: 350px;
+    border: solid 1px gray;
+    margin: 100px auto; 
+    box-shadow: 1px 1px 1px gray;  
+
+}
+.foto{
+    display: flex;
+    position: absolute; top: 150px; left: 400px;  
+   
+}
+h1{
+    display: inline-block;
+    font-family: cursive;
+    text-align: left;
+    padding: 5px;
+    margin: 25px 0px 0px 0px;
+}
+.gps{
+    margin:2px 0px 0px 10px;
+    vertical-align: bottom;
+    font-family: cursive;
+   /*border: solid 1px black;*/
+}
+
+.job{
+    margin: 2px 0px 0px 10px;
+    font-family: cursive;
+    font-size: 15px;
+}
+footer{
+    font-family: cursive;
+    margin: 10px;
+    vertical-align: bottom;
+
+}
